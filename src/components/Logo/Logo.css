@@ -1,0 +1,10 @@
+.logo {
+    color: #fff;
+    margin: auto 0px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.logo:active {
+    color: rgb(142,224,0);
+}
