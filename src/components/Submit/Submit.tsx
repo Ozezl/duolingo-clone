@@ -1,11 +1,15 @@
 import React from 'react';
 import './Submit.css';
 
-function Submit() {
+function Submit(props: any) {
+  function submitHandler() {
+    props.verify()
+  }
+
   return (
     <div className="submit">
-      <button>&#x21bb; Reset</button>
-      <button>Submit the answer</button>
+      <button onClick={() => props.reset()}>&#x21bb; Reset</button>
+      <button onClick={() => submitHandler()}>Submit the answer</button>
     </div>
   );
 }
