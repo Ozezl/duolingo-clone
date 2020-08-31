@@ -1,6 +1,26 @@
 .task {
+    text-align: center;
     font-size: 1.8em;
     font-weight: 600;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
     color: rgb(122,199,12);
+}
+
+@media (max-width: 526px) { 
+    .task {
+        margin-bottom: 35%;
+        padding: 0px 10px 0 10px
+    }
+}
+
+@media (min-width: 527px) and (max-width: 768px) { 
+    .task {
+        margin-bottom: 40%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) { 
+    .task {
+        margin-bottom: 20%;
+    }
 }

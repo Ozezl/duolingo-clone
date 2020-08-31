@@ -1,5 +1,23 @@
 .wordList {
     display: flex;
     justify-content: space-around;
-    width: 55%
+    width: 60%
+}
+
+@media (max-width: 526px) { 
+    .wordList {
+        width: 80%
+    }    
+}
+
+@media (min-width: 527px) and (max-width: 768px) { 
+    .wordList {
+        width: 80%
+    }    
+}
+
+@media (min-width: 769px) and (max-width: 1200px) { 
+    .wordList {
+        width: 80%
+    }    
 }

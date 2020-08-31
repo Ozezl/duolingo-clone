@@ -1,7 +1,7 @@
 .submit {
     display: flex;
     justify-content: space-around;
-    margin-top: 10%;
+    margin-top: 15%;
     width: 100%;
 }
 
@@ -19,4 +19,22 @@
 
 .submit button:active {
     background-color: rgb(229,56,56);
+}
+
+@media (max-width: 526px) { 
+    .submit {
+        margin-top: 35%;
+    }
+}
+
+@media (min-width: 527px) and (max-width: 768px) { 
+    .submit {
+        margin-top: 40%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) { 
+    .submit {
+        margin-top: 25%;
+    }
 }

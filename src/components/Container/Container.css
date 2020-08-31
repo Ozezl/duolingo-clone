@@ -21,3 +21,18 @@
 .correct {
     color: rgb(122,199,12);
 }
+
+@media (max-width: 526px) { 
+    .container {
+        width: 90%;
+        margin: 15% auto 0 auto;
+    }
+}
+
+@media (min-width: 527px) and (max-width: 768px) { 
+
+}
+
+@media (min-width: 769px) and (max-width: 1200px) { 
+
+}
